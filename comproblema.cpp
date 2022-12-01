@@ -115,7 +115,7 @@ int validaMovimento(char tab[][9], int l1, int c1, int l2, int c2){
 				}
 			}	
 		}
-		
+		//essa função não funciona corretamente ela é pra validar o movimento na diagonal
 		if (dh==0){
 			for (i = (lmenor+1); i < lmaior; i++){
 				if (tab[i][c1] != ' '){
